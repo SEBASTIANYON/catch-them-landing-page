@@ -1,0 +1,198 @@
+/*Contactanos*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:#21201F;
+    padding: 25px 0;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 13px;
+}
+a{
+    color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+}
+.SeccionContacto{
+    display:flex ;
+    width: auto;
+    height: auto;
+}
+.Contactanos{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+.Formulario{
+    color: white;
+    background: #21201F;
+    background: -moz-linear-gradient(top, #21201F 0%, #3F3E3D 50%, #969691 100%);
+    background: -webkit-linear-gradient(top, #21201F 0%, #3F3E3D 50%, #969691 100%);
+    background: linear-gradient(to bottom, #21201F 0%, #3F3E3D 50%, #969691 100%);
+    width: 50%;
+    padding: 15px 40px 0 40px;
+}
+.formulario{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+}
+.formulario_label{
+    visibility: hidden;
+}
+.formulario_input{
+    width: 90%;
+    background-color: white;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 2px;
+    height: 30px;
+    line-height: 45px;
+    padding: 0 40px 0 10px;
+    align-items: center;
+}
+.botonEnviar{
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Enviar{
+    height: 30px;
+    width: 40%;
+    background-color: #d2d4c8;
+    border: 1px solid #21201F;
+}
+.Fondo{
+    width: 50%;
+    align-items: center;
+}
+#parrafo{
+    font-size: xx-small;
+}
+/*------------------------------------------------------------------------------*/
+.ContenidoAcercaDe{
+    background-color: #ababa9;
+    padding: 30px 60px 30px 60px;
+}
+
+.Solicitud{
+    width: 60%;
+    height: 160px;
+    border: none;
+    border-radius: 100px;
+    background-color: #5f7470;
+    color: white;
+    text-align: center;
+    padding: 30px 40px 30px 40px;
+    margin: 20px 20% 20px 20%;
+    font-size: 13px;
+}
+
+#H3_Prueba{
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.Unirse{
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    background-color: #d2d4c8;
+    cursor:pointer;
+    padding: 10px 10px 10px 10px;
+}
+
+.Acerca{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 50px;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.Botoncito{
+    box-sizing: border-box;
+    width: 130px;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    background-color: #21201F;
+    cursor:pointer;
+    margin: 0px 23% 0px 23%;
+}
+
+.Botoncito:hover{
+    box-shadow: 3px 0px 30px rgb(78, 78, 78);
+}
+/*footer -----------------------------------------------------*/
+.PieDePagina{
+    background-color: #ababa9;
+    padding: 10px 0 10px 0;
+}
+.Informacion_Footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px 50px;
+    text-align: center;
+    padding: 20px 90px 20px 90px;
+    justify-content: center;
+}
+.Li_F{
+    list-style: none;
+    font-size: small;
+}
+.Copy{
+    text-align: right;
+    font-weight: lighter;
+}
+
+.Conexion_Footer{
+    list-style: none;
+}
+.Li_Icons{
+    display:inline-flex;
+    padding: 0 5px 0 5px;
+}
+.Suscripcion_Footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+/*-------------------------------------------------------------------*/
+
+.Formulario_Demostracion{
+    color: black;
+    width: 50%;
+    padding: 15px 40px 0 40px;
+    background-color: #c4c4c3;
+}
+
+#producto{
+    height: 30px;
+    width: 40%;
+    background-color: #5f7470;
+    border: none;
+    font-weight: medium;
+    cursor: pointer;
+}
+
+#Fondo_Demostracion{
+    background-color: #ababa9;
+    align-items: center;
+    display: block;
+    text-align: center;    
+}
+
+.LineaFondo{
+    width: 80%;
+    margin: 10%;
+}
