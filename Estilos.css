@@ -18,6 +18,12 @@ header{
     overflow: hidden;
 }
 
+
+
+
+
+
+
 /*
 ul{
     float:right;
@@ -96,8 +102,6 @@ ul.my-list {
     
   }
 
-  
-
   ul.my-list li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -168,7 +172,7 @@ nav a {
 .Buscar{
     background-color: #2021;
     border: 1px solid rgb(190, 190, 190);
-    border-radius: 2px;
+    border-radius: 50px;
     height: 25px;
     color: #fff;
     padding: 0 0 0 15px;
@@ -176,6 +180,8 @@ nav a {
     margin: 20px 15px;
     float: right;
 }
+
+
 /*----------------------------------------------------------------*/
 .SeccionContacto{
     display:flex ;
